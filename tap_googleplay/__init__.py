@@ -173,7 +173,10 @@ def query_report(bucket):
             for index, line in enumerate(rep, start=1):
                 data = line
                 data['dimension_name'] = dimension_name
-                data['dimension_value'] = data[fields[2]]
+                dim_value = data[fields[2]]
+                if not dim_value:
+                    dim_value = 'null'
+                data['dimension_value'] = dim_value
                 del data[fields[2]]
 
                 rec = transformer.transform(data, stream_schema)
