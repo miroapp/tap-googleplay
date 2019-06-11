@@ -1,0 +1,93 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "package_name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "dimension_name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "dimension_value": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "active_device_installs": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "daily_device_installs": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "daily_device_uninstalls": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "daily_device_upgrades": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "total_user_installs": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "daily_user_installs": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "daily_user_uninstalls": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "install_events": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "update_events": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "uninstall_events": {
+      "type": [
+        "null",
+        "number"
+      ]
+    }
+  }
+}
